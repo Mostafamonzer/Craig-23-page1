@@ -1,0 +1,160 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    background-color:#F7F2EC !important;
+
+}
+ 
+
+.home{
+    background-image: url(../images/Mask\ group.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    /* margin-bottom: 180px; */
+    
+}
+
+.home .left-home{
+    padding-top: 130px;
+}
+.home img {
+    color: #FFFFFF;
+}
+.home h2{
+    font-family: 'Archivo';
+    font-weight: 500;
+    font-size: 59px;
+    line-height: 64px;
+    color: #FFFFFF;
+    padding-top: 40px ;
+}
+.home p span{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 22px;
+    color: #F6F6F6;
+    /* line-height: 40px; */
+}
+.home-parag1{
+    padding-top: 30px;
+}
+.home i {
+    color: #FFFFFF;
+    height: 22px;
+    width: 22px;
+
+}
+/* //////////////////////////////////////////// */
+.parent-from{
+    position: relative;
+    top: 200px;
+    box-shadow:0px 0px 5px 1px  #000000;
+ 
+
+}
+.form{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 50px;
+    /* width: 600px; */
+    min-height: 560px;
+    
+   
+        
+}
+.form h3{   
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    max-width: 500px;
+    padding-top: 50px;
+ 
+}
+.form button{
+    background-color: #222222;
+    color: #FFFFFF;
+}
+
+/*---------------------- End Home ------------------*/
+
+/* ------------------------Start Need----------------- */
+
+.main-parag{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 21px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    text-align: center;
+    
+}
+.need h3{
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 600;
+    
+   
+}
+.need-p{
+    font-family: 'Poppins';
+    font-size: 21px;
+    font-weight: 400;
+    /* max-width: 670px; */
+}
+
+.need-left button{
+    max-width: 200px;
+    max-height: 60px;
+    background-color: #121212;
+    padding: 17px, 10px, 17px, 10px;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+   
+
+
+}
+.img-2{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+/* End Need */
+
+
+
+
+@media  (max-width: 991px){
+    .home{
+        margin-bottom: 400px;
+    }
+    .home .left-home{
+        padding-top: 30px;
+    }
+
+
+    .need{
+        padding-top: 290px;
+        margin-top: 5000px;
+    }
+
+}
